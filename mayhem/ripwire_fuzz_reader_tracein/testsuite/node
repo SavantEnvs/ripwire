@@ -1,0 +1,3 @@
+TypeError: x is not a function
+    at area (/srv/geometry.js:14:9)
+    at Object.<anonymous> (/srv/app.js:3:1)

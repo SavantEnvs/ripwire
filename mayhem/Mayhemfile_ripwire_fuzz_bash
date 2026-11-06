@@ -1,0 +1,9 @@
+project: savantenvs/ripwire
+target: ripwire_fuzz_bash
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ripwire_fuzz_bash/testsuite
+cmds:
+  - cmd: /mayhem/build-fuzz/ripwire_fuzz_bash
+    libfuzzer: true
+    timeout: 20

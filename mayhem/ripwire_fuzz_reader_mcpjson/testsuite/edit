@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"replace_symbol_body","arguments":{"path":".","symbol":"f","new_body":"{ return 1; }","edits":[{"symbol":"g","new_body":"{}"}]}}}

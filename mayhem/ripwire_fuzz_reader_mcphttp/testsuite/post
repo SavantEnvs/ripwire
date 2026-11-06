@@ -1,0 +1,9 @@
+POST /mcp HTTP/1.1
+Host: 127.0.0.1
+Content-Type: application/json
+Accept: application/json, text/event-stream
+MCP-Protocol-Version: 2025-11-25
+Authorization: Bearer abc
+Content-Length: 46
+
+{"jsonrpc":"2.0","id":1,"method":"tools/list"}

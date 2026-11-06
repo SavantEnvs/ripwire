@@ -1,0 +1,1 @@
+src/geometry.cpp:42:17: error: no member named 'radius' in 'Circle'
